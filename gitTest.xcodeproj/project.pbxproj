@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27AFA628209A165600E00F12 /* GitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA627209A165600E00F12 /* GitTableViewController.m */; };
+		27AFA62B209A166B00E00F12 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA62A209A166B00E00F12 /* MasterViewController.m */; };
 		CAC20394209A0DD100E5F556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC20393209A0DD100E5F556 /* AppDelegate.m */; };
 		CAC20397209A0DD100E5F556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC20396209A0DD100E5F556 /* ViewController.m */; };
 		CAC2039A209A0DD100E5F556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC20398209A0DD100E5F556 /* Main.storyboard */; };
@@ -18,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		27AFA626209A165600E00F12 /* GitTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitTableViewController.h; sourceTree = "<group>"; };
+		27AFA627209A165600E00F12 /* GitTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTableViewController.m; sourceTree = "<group>"; };
+		27AFA629209A166B00E00F12 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		27AFA62A209A166B00E00F12 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		CAC2038F209A0DD100E5F556 /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC20392209A0DD100E5F556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAC20393209A0DD100E5F556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -79,6 +85,10 @@
 				CAC203AC209A135200E5F556 /* Color.m */,
 				CAC203AE209A138E00E5F556 /* ModelManager.h */,
 				CAC203AF209A138E00E5F556 /* ModelManager.m */,
+				27AFA626209A165600E00F12 /* GitTableViewController.h */,
+				27AFA627209A165600E00F12 /* GitTableViewController.m */,
+				27AFA629209A166B00E00F12 /* MasterViewController.h */,
+				27AFA62A209A166B00E00F12 /* MasterViewController.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -157,9 +167,11 @@
 			files = (
 				CAC20397209A0DD100E5F556 /* ViewController.m in Sources */,
 				CAC203AD209A135200E5F556 /* Color.m in Sources */,
+				27AFA628209A165600E00F12 /* GitTableViewController.m in Sources */,
 				CAC203A2209A0DD100E5F556 /* main.m in Sources */,
 				CAC203B0209A138E00E5F556 /* ModelManager.m in Sources */,
 				CAC20394209A0DD100E5F556 /* AppDelegate.m in Sources */,
+				27AFA62B209A166B00E00F12 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
