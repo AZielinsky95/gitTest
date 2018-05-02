@@ -7,23 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27AFA628209A165600E00F12 /* GitTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA627209A165600E00F12 /* GitTableViewController.m */; };
-		27AFA62B209A166B00E00F12 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 27AFA62A209A166B00E00F12 /* MasterViewController.m */; };
 		CAC20394209A0DD100E5F556 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC20393209A0DD100E5F556 /* AppDelegate.m */; };
 		CAC20397209A0DD100E5F556 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC20396209A0DD100E5F556 /* ViewController.m */; };
 		CAC2039A209A0DD100E5F556 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC20398209A0DD100E5F556 /* Main.storyboard */; };
 		CAC2039C209A0DD100E5F556 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAC2039B209A0DD100E5F556 /* Assets.xcassets */; };
 		CAC2039F209A0DD100E5F556 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAC2039D209A0DD100E5F556 /* LaunchScreen.storyboard */; };
 		CAC203A2209A0DD100E5F556 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203A1209A0DD100E5F556 /* main.m */; };
-		CAC203AD209A135200E5F556 /* Color.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203AC209A135200E5F556 /* Color.m */; };
-		CAC203B0209A138E00E5F556 /* ModelManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CAC203AF209A138E00E5F556 /* ModelManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		27AFA626209A165600E00F12 /* GitTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitTableViewController.h; sourceTree = "<group>"; };
-		27AFA627209A165600E00F12 /* GitTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTableViewController.m; sourceTree = "<group>"; };
-		27AFA629209A166B00E00F12 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
-		27AFA62A209A166B00E00F12 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
 		CAC2038F209A0DD100E5F556 /* gitTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gitTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAC20392209A0DD100E5F556 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CAC20393209A0DD100E5F556 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -34,11 +26,6 @@
 		CAC2039E209A0DD100E5F556 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAC203A0209A0DD100E5F556 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAC203A1209A0DD100E5F556 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CAC203A8209A11AB00E5F556 /* gitTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "gitTest-Bridging-Header.h"; sourceTree = "<group>"; };
-		CAC203AB209A135200E5F556 /* Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Color.h; sourceTree = "<group>"; };
-		CAC203AC209A135200E5F556 /* Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Color.m; sourceTree = "<group>"; };
-		CAC203AE209A138E00E5F556 /* ModelManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelManager.h; sourceTree = "<group>"; };
-		CAC203AF209A138E00E5F556 /* ModelManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,15 +67,6 @@
 				CAC2039D209A0DD100E5F556 /* LaunchScreen.storyboard */,
 				CAC203A0209A0DD100E5F556 /* Info.plist */,
 				CAC203A1209A0DD100E5F556 /* main.m */,
-				CAC203A8209A11AB00E5F556 /* gitTest-Bridging-Header.h */,
-				CAC203AB209A135200E5F556 /* Color.h */,
-				CAC203AC209A135200E5F556 /* Color.m */,
-				CAC203AE209A138E00E5F556 /* ModelManager.h */,
-				CAC203AF209A138E00E5F556 /* ModelManager.m */,
-				27AFA626209A165600E00F12 /* GitTableViewController.h */,
-				27AFA627209A165600E00F12 /* GitTableViewController.m */,
-				27AFA629209A166B00E00F12 /* MasterViewController.h */,
-				27AFA62A209A166B00E00F12 /* MasterViewController.m */,
 			);
 			path = gitTest;
 			sourceTree = "<group>";
@@ -124,7 +102,6 @@
 				TargetAttributes = {
 					CAC2038E209A0DD100E5F556 = {
 						CreatedOnToolsVersion = 9.2;
-						LastSwiftMigration = 0920;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -166,12 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAC20397209A0DD100E5F556 /* ViewController.m in Sources */,
-				CAC203AD209A135200E5F556 /* Color.m in Sources */,
-				27AFA628209A165600E00F12 /* GitTableViewController.m in Sources */,
 				CAC203A2209A0DD100E5F556 /* main.m in Sources */,
-				CAC203B0209A138E00E5F556 /* ModelManager.m in Sources */,
 				CAC20394209A0DD100E5F556 /* AppDelegate.m in Sources */,
-				27AFA62B209A166B00E00F12 /* MasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,16 +278,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N8EE67V363;
 				INFOPLIST_FILE = gitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AleZ.gitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "gitTest/gitTest-Bridging-Header.h";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -323,15 +292,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N8EE67V363;
 				INFOPLIST_FILE = gitTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.AleZ.gitTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "gitTest/gitTest-Bridging-Header.h";
-				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
